@@ -1,0 +1,78 @@
+.identify-icon{
+	text-align: center;
+}
+.identify-icon-lg{
+	width:200upx;
+	height:200upx;
+}
+.identify-icon-text{
+	color:#fff;
+	font-size:40upx;
+}
+
+/* 白框 */
+.fill-information-white{
+	width:90%;
+	margin:15upx auto;
+	background:#fff;
+	border-radius: 15upx;
+	padding:25upx 0;
+	box-shadow: rgba(0,0,0,0.1) 0px 15px 35px 0px, rgba(0,0,0,0.07) 0px 3px 10px 0px;
+}
+/* 字体颜色紫色 */
+.color-purple{
+	color:#814de7;
+	font-weight:700;
+}
+/* 字体颜色微紫 */
+.tiny-purple{
+	color:#C6B4F3;
+	font-size:40upx;
+}
+/* 红色 */
+.digital-red{
+	color:#ff0000;
+}
+.digital-orange{
+	color:#ffaa00;
+}
+/* 按钮 */
+.fill-information-btn{
+	width:90%;
+	margin:40upx auto;
+}
+.fill-information-submit{
+	color:#fff;
+	font-size:40upx;
+	background: -webkit-linear-gradient(left,#3be1be 0,#1781d7 100%);
+	background: -moz-linear-gradient(left,#3be1be 0,#1781d7 100%);
+	background: -o-linear-gradient(left,#3be1be 0,#1781d7 100%);
+	background: linear-gradient(to left,#3be1be,#1781d7 100%);
+}
+
+/* 签名墙 */
+.night-back-title{
+		width:95%;
+		height:40upx;
+		margin:0 auto;
+		line-height: 40upx;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-between;
+	}
+	.digital-statistical{
+		font-size:32upx;
+	}
+	.display-wall{
+		width:95%;
+		margin:20upx auto 0;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:flex-start;
+	}
+	.display-wall-name{
+		margin:0 10upx;
+		color:#000;
+		font-size:42upx !important;
+		font-weight: 700;
+	}

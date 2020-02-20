@@ -1,0 +1,225 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "智慧校园",
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton":"false",
+						// "type": "transparent",
+						"buttons": [
+							{
+								"text":"\ue130",
+								"fontSrc": "/static/uni.ttf",
+								"color": "#FFFFFF",
+								"float": "left"
+							},{
+							"text": "选择校区",
+							"fontSize": "14",
+							// "select": true,
+							"width": "auto"
+						}]
+					},
+					"scrollIndicator":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/change-pwd/change-pwd",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/change-pwd/forget-pwd",//忘记密码更改密码
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/registered/registered",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/forgot-password/forgot-password",//忘记密码验证
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/phone-binding/phone-binding",
+			"style": {
+				"navigationBarTitleText": "手机号绑定"
+			}
+		},
+		{
+			"path": "pages/campus-dynamic/campus-dynamic",
+			"style": {
+				"navigationBarTitleText": "校园动态",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		"path": "pages/announcements/announcements",
+			"style": {
+				"navigationBarTitleText": "通知公告",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/details-page/details",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+							"type": "share"
+						}]
+					}
+				},
+				"h5": {
+					"titleNView": {
+						"type": "transparent",
+						"buttons": []
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/introduce/introduce",
+			"style": {
+				"navigationBarTitleText": "院系介绍"
+			}
+		},
+		{
+			"path": "pages/abnormal/abnormal-traffic",//不正常通行导航
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/abnormal/abnormal-records",//学生异常记录
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/night-back/night-back",//彻夜未归
+			"style": {
+				"navigationBarTitleText": "彻夜未归"
+			}
+		},
+		{
+			"path": "pages/not-bedroom/not-bedroom",//未在寝人数统计
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/your-transfer/your-transfer",//转学
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/back-school/back-school",//复学
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/examination-approval/examination-approval",//审批（学生申请）
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/visit-registration/visit-registration",//来访登记
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/dormitory-service/dormitory-service",//宿舍报修
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/apply-suspension/apply-sespension",//休学申请
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/school-batck/school-batch",//休学审批
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/progress/progress",//进度条
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/data-statistics/data-statistics",//数据统计
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/aaa/aaa",
+			"style": {
+				"navigationBarTitleText": "aaa"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "智慧校园",
+		// "navigationStyle":"custom",禁用原生导航栏,
+		"navigationBarBackgroundColor": "#00a3e8",
+		// "backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6"
+	}
+}
